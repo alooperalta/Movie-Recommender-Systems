@@ -179,7 +179,7 @@ def get_recommendations(title, cosine_sim=cosine_sim):
         similarity=similarity[1:11] # first movie will be the same
         recommended_movies=[i[0] for i in similarity]
         for i in recommended_movies:
-            print(merged_df['title'].iloc[i])
+            st.write(merged_df['title'].iloc[i])
 
 
 # In[33]:
