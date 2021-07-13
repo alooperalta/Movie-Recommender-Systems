@@ -185,7 +185,6 @@ def get_recommendations(title, cosine_sim=cosine_sim):
 # In[33]:
 
 
-get_recommendations('Tin Can Man')
 # for idx in indexes:
 #     print(merged_df['title'].iloc[idx])
 
