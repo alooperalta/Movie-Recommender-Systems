@@ -184,7 +184,7 @@ def get_recommendations(title, cosine_sim=cosine_sim):
 
 # In[33]:
 st.title("Hamoye Capstone Project")
-st.title("Movie Recommender System (imt-01)")
+st.header("Movie Recommender System (imt-01)")
 
 
 # In[36]:
