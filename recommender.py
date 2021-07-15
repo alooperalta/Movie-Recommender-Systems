@@ -183,10 +183,8 @@ def get_recommendations(title, cosine_sim=cosine_sim):
 
 
 # In[33]:
-
-
-# for idx in indexes:
-#     print(merged_df['title'].iloc[idx])
+st.title("Hamoye Capstone Project")
+st.title("Movie Recommender System (imt-01)")
 
 
 # In[36]:
